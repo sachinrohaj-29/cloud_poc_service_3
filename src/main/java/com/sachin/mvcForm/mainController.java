@@ -13,6 +13,7 @@ public class mainController {
 
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String index(Post post) {
+		System.out.println("in error method");
 		return "index";
 	}
  
